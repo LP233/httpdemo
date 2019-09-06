@@ -1,0 +1,15 @@
+
+<div class="col-md-6">
+<div *ngFor="let posts of postsarr" class="media">
+    <div class="media-left">
+        <a href="#">
+          <img class="avatar media-object" src="{{ posts.avatar_url }}" alt="...">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">{{ posts.login }}</h4>
+        <a href="follower.html_url">{{ posts.html_url }}</a>
+      </div>  
+</div>
+</div>
+
